@@ -2,7 +2,10 @@
   "name": "@yien/vue-file-select",
   "version": "1.0.0",
   "description": "Very easy to use file select component for Vuejs!",
-  "keywords": ["vue-file-select", "file-select"],
+  "keywords": [
+    "vue-file-select",
+    "file-select"
+  ],
   "author": "YienCheng",
   "homepage": "https://github.com/YienCheng/vue-file-select#readme",
   "repository": {
@@ -13,7 +16,11 @@
     "url": "https://github.com/YienCheng/vue-file-select/issues",
     "email": "cye_orange@163.com"
   },
-  "files": ["src", "LICENSE", "package.json"],
+  "files": [
+    "src",
+    "LICENSE",
+    "package.json"
+  ],
   "license": "MIT",
   "main": "src/index.js",
   "private": false,
