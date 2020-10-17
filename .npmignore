@@ -1,7 +1,16 @@
+.idea
+.vscode
 examples/
 public/
-dist/
 
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+*.map
+.*
 vue.config.js
 babel.config.js
-*.map
+*.lock
