@@ -13,6 +13,7 @@
     "url": "https://github.com/YienCheng/vue-file-select/issues",
     "email": "cye_orange@163.com"
   },
+  "files": ["src", "LICENSE", "package.json"],
   "license": "MIT",
   "main": "src/index.js",
   "private": false,
