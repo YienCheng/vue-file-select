@@ -1,18 +1,26 @@
 {
-  "name": "vue-file-select",
+  "name": "@yien/vue-file-select",
   "version": "1.0.0",
   "description": "Very easy to use file select component for Vuejs!",
-  "keywords": ["vue-file-select", "VueComponent", "FileSelect", "vue"],
+  "keywords": ["vue-file-select", "file-select"],
   "author": "YienCheng",
-  "homepage": "",
-  "bugs": "",
+  "homepage": "https://github.com/YienCheng/vue-file-select#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YienCheng/vue-file-select.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YienCheng/vue-file-select/issues",
+    "email": "cye_orange@163.com"
+  },
   "license": "MIT",
   "main": "src/index.js",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build:example": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "publish": "npm publish --access public"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
