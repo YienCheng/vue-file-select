@@ -61,15 +61,17 @@ export default {
 };
 </script>
 
-<style lang="less" scoped>
+<style scoped>
 .file-select-container {
   display: inline-flex;
-  .input {
-    display: none;
-  }
-  &.disabled,
-  &.disabled > * {
-    cursor: no-drop;
-  }
+}
+
+.file-select-container.disabled,
+.file-select-container.disabled > * {
+  cursor: no-drop;
+}
+
+.file-select-container .input {
+  display: none;
 }
 </style>
